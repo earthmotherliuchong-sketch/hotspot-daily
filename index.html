@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph / 微信卡片 -->
+  <meta property="og:title" content="行业热点日报 2026-08-11 | 装修·建材·环保·节能·空调·暖通">
+  <meta property="og:description" content="今日采集28条相关热点，覆盖知乎/百度/微博/抖音/今日头条/小红书/快手等平台。装修6条·建材2条·环保节能7条·空调9条·暖通4条。">
+  <meta property="og:image" content="https://earthmotherliuchong-sketch.github.io/hotspot-daily/og-cover.png">
+  <meta property="og:url" content="https://earthmotherliuchong-sketch.github.io/hotspot-daily/2026-08-11.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="行业热点日报">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="行业热点日报 2026-08-11">
+  <meta name="twitter:description" content="今日采集28条相关热点，覆盖知乎/百度/微博/抖音/今日头条/小红书/快手等平台">
+  <meta name="twitter:image" content="https://earthmotherliuchong-sketch.github.io/hotspot-daily/og-cover.png">
+
+  <title>行业热点日报 2026-08-11 | 装修·建材·环保·节能·空调·暖通</title>
+  <style>
+    :root {
+      --bg: #fefaf3;
+      --card-bg: #fff9f0;
+      --accent: #c0392b;
+      --accent2: #d4a76a;
+      --text: #2c2c2c;
+      --text-secondary: #666;
+      --border: #f0e0c8;
+      --tag-bg: #fdf2e3;
+      --tag-text: #b87333;
+      --xhs: #ff2442;
+      --dy: #161823;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      padding-bottom: 4rem;
+    }
+    .header {
+      background: linear-gradient(135deg, #8b0000, #c0392b);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+    .header h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: 0.05em; }
+    .header p { margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.85; }
+    .nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      padding: 0.75rem 1rem;
+      background: rgba(255,249,240,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-bar a {
+      text-decoration: none;
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.35rem 0.75rem;
+      border-radius: 20px;
+      transition: all 0.2s;
+      border: 1px solid transparent;
+    }
+    .nav-bar a:hover { background: var(--accent); color: #fff; }
+    .nav-bar a.xhs { color: var(--xhs); }
+    .nav-bar a.xhs:hover { background: var(--xhs); color: #fff; }
+    .nav-bar a.dy { color: var(--dy); }
+    .nav-bar a.dy:hover { background: var(--dy); color: #fff; }
+    .container { max-width: 780px; margin: 0 auto; padding: 0 1.25rem; }
+    .summary {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 2rem 0 1.5rem;
+    }
+    .summary h2 { font-size: 1.1rem; color: var(--accent); margin-bottom: 0.75rem; }
+    .summary ul { list-style: none; }
+    .summary li { padding: 0.3rem 0; font-size: 0.9rem; color: var(--text-secondary); }
+    .summary li::before { content: "\25B8 "; color: var(--accent2); font-weight: bold; }
+    .section { margin: 2rem 0; }
+    .section-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--accent);
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--accent2);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .section-title .count {
+      font-size: 0.8rem;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 12px;
+      padding: 0.1rem 0.6rem;
+      font-weight: 500;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.75rem;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+    .card .head { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.35rem; }
+    .card .platform {
+      font-size: 0.7rem;
+      font-weight: 700;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: 0.15rem 0.55rem;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+    .card .platform.xhs { background: #fff0f3; color: var(--xhs); }
+    .card .platform.dy { background: #f0f0f3; color: var(--dy); }
+    .card .title { font-weight: 700; font-size: 0.95rem; color: var(--text); }
+    .card .desc { font-size: 0.83rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
+    .card .link a { font-size: 0.78rem; color: var(--accent); text-decoration: none; word-break: break-all; }
+    .card .link a:hover { text-decoration: underline; }
+    .footer { text-align: center; padding-top: 2rem; font-size: 0.78rem; color: var(--text-secondary); }
+    .keyword-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+    .keyword-tags span {
+      font-size: 0.72rem;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+    }
+    .new-badge {
+      font-size: 0.65rem;
+      background: #ff2442;
+      color: #fff;
+      padding: 0.1rem 0.4rem;
+      border-radius: 8px;
+      margin-left: 0.3rem;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🏗️ 行业热点日报</h1>
+  <p>2026年8月11日 · 多云转晴 29°C ~ 38°C</p>
+  <p style="margin-top: 0.3rem; font-size: 0.82rem;">装修 · 建材 · 环保 · 节能 · 空调 · 暖通</p>
+</div>
+
+<div class="nav-bar">
+  <a href="#summary">📊 速览</a>
+  <a href="#sec-zx">🏠 装修</a>
+  <a href="#sec-jc">🧱 建材</a>
+  <a href="#sec-ep">🌿 环保·节能</a>
+  <a href="#sec-kt">❄️ 空调</a>
+  <a href="#sec-nt">🔥 暖通</a>
+  <a href="#sec-xhs" class="xhs">📕 小红书</a>
+  <a href="#sec-dy" class="dy">🎵 抖音</a>
+</div>
+
+<div class="container">
+
+  <div class="summary" id="summary">
+    <h2>📊 核心速览</h2>
+    <div class="keyword-tags" style="margin-bottom: 0.8rem;">
+      <span>ENF 板材普及率 52%</span>
+      <span>碳效领跑者</span>
+      <span>中国空调欧洲卖爆</span>
+      <span>空调新国标</span>
+      <span>用电负荷 15.57亿kW</span>
+      <span>建筑碳计量规范</span>
+      <span>华立股份涨停</span>
+      <span>加州热泵团购</span>
+      <span>玫瑰空调1.3亿阅读</span>
+      <span>小红书"适我主义"</span>
+      <span>山东集中供冷</span>
+      <span>美的AI空调变艺术品</span>
+    </div>
+    <ul>
+      <li>共采集 <strong>28 条</strong>相关热点，来自全网 8+ 资讯平台（含小红书、抖音）</li>
+      <li>今日最强信号：<strong>中国空调欧洲爆卖</strong>、<strong>三部门碳效领跑者制度</strong>、<strong>格力玫瑰空调1.3亿阅读狂卖5万台</strong>、<strong>小红书发布2026居住趋势报告</strong></li>
+      <li>装修 6 条 · 建材 2 条 · 环保·节能 7 条 · 空调 9 条 · 暖通 4 条</li>
+    </ul>
+  </div>
+
+  <!-- ================= 装修 ================= -->
+  <div class="section" id="sec-zx">
+    <div class="section-title">🏠 装修 <span class="count">6 条</span></div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform xhs">📕 小红书</span>
+        <span class="title">小红书《2026居住趋势报告》："适我主义"成核心关键词<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">小红书平台发布趋势报告，指出家居消费从"外向型审美"转向"内向型关照"，轻量化高端定制、情绪治愈型软装、个性化场景搭配成为市场新风口。家装市场规模今年将达3.65万亿，2030年有望突破4.5万亿。</div>
+      <div class="link"><a href="http://gzylhyzx.com/detail.html?cpid=T17&newsId=43033339" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform xhs">📕 小红书</span>
+        <span class="title">情绪治愈型软装成市场新风口，情绪经济规模预计2029年突破4.5万亿<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">艾媒咨询数据显示，情绪经济市场持续攀升，家居赛道情绪消费占比达28%，年增速超30%。"95后"职场白领偏爱简约柔和风格搭配低饱和软装，"对内取悦"取代"对外展示"成为消费决策核心。</div>
+      <div class="link"><a href="http://gzylhyzx.com/detail.html?cpid=T17&newsId=43033339" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🌐 全网热搜</span>
+        <span class="title">2026年办公室装修趋势：ENF级环保板材普及率升至52%</span>
+      </div>
+      <div class="desc">行业数据显示全屋定制市场规模突破4500亿元，ENF级环保板材渗透率同比提升22%。设计施工一体化、闭口合同零增项成为高端市场主流。</div>
+      <div class="link"><a href="https://info.b2b168.com/s168-323501236.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">📰 海峡导报</span>
+        <span class="title">厦门第12届蓝装家博会 8月14-16日举办，覆盖建材·家电·软装全品类</span>
+      </div>
+      <div class="desc">涵盖全屋定制、建材、家电、软装等全品类家居产品，配套多重现场福利。同期厦门会展经济持续活跃。</div>
+      <div class="link"><a href="https://dzb.sunnews.cn/html/2026-08/11/content_841062.htm" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🏗️ 澳门日报</span>
+        <span class="title">粤港澳建筑交流会聚焦绿色低碳与智能建造，推动"好房子"建设</span>
+      </div>
+      <div class="desc">第三届粤港澳建筑科学技术交流大会在广州举行，发布《粤港澳大湾区"好房子"共建倡议书》，BIM技术应用大赛颁奖。</div>
+      <div class="link"><a href="https://www.macaodaily.com/html/2026-08/11/content_1926343.htm" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">📊 行业观察</span>
+        <span class="title">住建部GB55038—2025住宅规范持续推动全装修交付标准升级</span>
+      </div>
+      <div class="desc">精装房改造与旧房翻新占比攀升至38%，家装行业加速从低价竞争向品质服务转型，智慧工地系统、3D云渲染成标配。</div>
+      <div class="link"><a href="https://info.b2b168.com/s168-323628098.html" target="_blank">查看原文 →</a></div>
+    </div>
+  </div>
+
+  <!-- ================= 建材 ================= -->
+  <div class="section" id="sec-jc">
+    <div class="section-title">🧱 建材 <span class="count">2 条</span></div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">📈 A股行情</span>
+        <span class="title">华立股份涨停10.01%领涨装修建材板块，兔宝宝连续3天净流入</span>
+      </div>
+      <div class="desc">华立股份(603038.SH)涨停报15.06元。北新建材(000786.SZ)涨1.10%报18.39元，东方雨虹(002271.SZ)涨1.55%。三棵树涨3.03%。</div>
+      <div class="link"><a href="https://gu.qq.com/resources/shy/news/detail-v2/index.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">📉 我的钢铁网</span>
+        <span class="title">山东水泥周跌1.2%出库回升12%，钢材价格低位震荡待"金九银十"</span>
+      </div>
+      <div class="desc">本周水泥价格环比跌0.48%，新房成交面积环比降34.6%。建筑钢材产量降、库存增，受高温淡季及台风影响需求疲软。8月中旬高温消退后赶工需求有望释放。</div>
+      <div class="link"><a href="https://xny.mysteel.com/article/p-4649-------------1.html" target="_blank">查看原文 →</a></div>
+    </div>
+  </div>
+
+  <!-- ================= 环保·节能 ================= -->
+  <div class="section" id="sec-ep">
+    <div class="section-title">🌿 环保·节能 <span class="count">7 条</span></div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🏛️ 中国经济导报</span>
+        <span class="title">重磅！工信部等三部门首推"碳效领跑者"制度，企业竞争力与碳效挂钩</span>
+      </div>
+      <div class="desc">工信部、发改委、市场监管总局联合印发2026年度重点行业能效碳效领跑者通知，首次将碳效纳入遴选体系，以单位产品CO2排放为核心评价指标，推动绿色低碳转型。</div>
+      <div class="link"><a href="https://www.163.com/dy/article/L40RBLVM05568W0A.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">⚡ 经济参考报</span>
+        <span class="title">煤炭工业"十五五"规划印发：2030年智能化产能比例提升至75%</span>
+      </div>
+      <div class="desc">十四五末全国煤矿数量减至4000处，智能化产能占比超65%。十五五聚焦安全/智能/清洁/高效/融合，加快绿色低碳矿区建设。</div>
+      <div class="link"><a href="https://finance.sina.com.cn/jjxw/2026-08-11/doc-inimwpyv0924081.shtml" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🌊 华声在线</span>
+        <span class="title">湖南"一江一湖四水"总磷污染控制方案出炉：2030年国控断面总磷再降10%</span>
+      </div>
+      <div class="desc">部署6大方面14项任务，2030年畜禽粪污综合利用率达85%以上，农村生活污水治理率达75%，修复湿地20万亩。</div>
+      <div class="link"><a href="https://new.qq.com/rain/a/20260811A008MD00" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🏢 碳中和日报</span>
+        <span class="title">江西启动碳达峰碳中和专项资金申报，建筑碳计量国家规范9月启动</span>
+      </div>
+      <div class="desc">江西省节能减碳专项资金重点支持能源绿色转型/零碳基础设施/绿色低碳先进技术。建筑碳计量分技术委员会将在上海召开年会启动多项规范编制。</div>
+      <div class="link"><a href="https://new.qq.com/rain/a/20260811A01PV500" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🔋 人民网</span>
+        <span class="title">四项风电新国标8月1日实施，构建退役/深水/安全/可靠全生命周期标准</span>
+      </div>
+      <div class="desc">涵盖绿色拆除、漂浮式海上风电、塔架安全监测、可靠性评价，补齐行业标准碎片化短板，助力"双碳"目标。</div>
+      <div class="link"><a href="http://gzylhyzx.com/detail.html?cpid=T17&newsId=47669192" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🔌 中新网</span>
+        <span class="title">用电负荷突破15.57亿kW创新高，全国跨省输电2.78亿kW力保"空调自由"</span>
+      </div>
+      <div class="desc">入夏以来日最大负荷均超去年极值。全国虚拟电厂项目470个，最大调节能力1685万kW同比增70%。AI模型"天璇—灵曦"智能调度。</div>
+      <div class="link"><a href="https://so.html5.qq.com/page/real/search_news?docid=70000021_4556a7a030866652" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">📐 工人日报</span>
+        <span class="title">百余项家电领域新国标8月1日起实施，覆盖空调/洗衣机/冰箱/热水器等</span>
+      </div>
+      <div class="desc">GB 44246-2024强制性国标覆盖输入功率、电源连接、耐热耐燃、机械强度等安全指标，配套百余项GB/T 4706系列标准覆盖各品类。</div>
+      <div class="link"><a href="https://www.workercn.cn/papers/grrb/2026/08/11/4/news-3.html" target="_blank">查看原文 →</a></div>
+    </div>
+  </div>
+
+  <!-- ================= 空调 ================= -->
+  <div class="section" id="sec-kt">
+    <div class="section-title">❄️ 空调 <span class="count">9 条</span></div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform dy">🎵 抖音热搜</span>
+        <span class="title">格力玫瑰空调话题斩获1.3亿阅读量，全网骂丑却狂卖5万台<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">格力电器CMO证实玫瑰空调累计销量突破5万台，按均价测算创造超15亿元销售额。话题在抖音等平台斩获1.3亿阅读量，已迭代至第三代。核心赛道为新婚家装、中式婚房、轻奢喜庆场景。</div>
+      <div class="link"><a href="https://www.mtrt.cn/news/1428" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform dy">🎵 抖音热门</span>
+        <span class="title">美的T3二代AI空调：珍珠玻璃面板+胡桃木新风窗，空调变家居艺术品<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">美的发布新一代空气机T3二代，天然珍珠玻璃面板+92%透光率超白玻璃，关机全隐如装饰画。搭载DeepSeek大模型，50m³/h新风量+H13级净化+23dB静音。京东空调热卖榜美的位列TOP1。</div>
+      <div class="link"><a href="https://dy.163.com/article/L3SOEIJP0512C3L0.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform dy">🎵 抖音热搜</span>
+        <span class="title">开一天一夜空调女子"中毒"，医生提醒夏季空调使用安全<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">多地报道长时间密闭开空调导致不适案例。医生提醒：空调房需定期通风换气，避免一氧化碳中毒风险（燃气热水器+空调密闭环境尤需注意），建议每2-3小时开窗通风15分钟。</div>
+      <div class="link"><a href="https://liaoning.news.163.com/keywords/7/7/7a7a8c03/1.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🔥 全网热榜</span>
+        <span class="title">中国空调欧洲卖爆！上半年家电出口1079.1亿元，欧洲"一机难求"</span>
+      </div>
+      <div class="desc">对法/荷/比等国空调出口额同比大幅增长。中欧班列15-25天直达，工厂排产压缩至10天内。精准适配欧洲能效/噪音/安装尺寸标准。</div>
+      <div class="link"><a href="https://www.163.com/dy/article/L40TTI7D05561FZK.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">📰 千龙网</span>
+        <span class="title">从空调热销欧洲看中国制造惠及全球：前7月进出口总值同比增17.3%</span>
+      </div>
+      <div class="desc">7月高技术产品出口增长超五成。中国企业从"产品出海"走向"价值共赢"，在埃及/孟加拉国/巴西建产业基地创数万就业岗位。</div>
+      <div class="link"><a href="https://review.qianlong.com/2026/0811/8710204.shtml" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">📋 新浪看点</span>
+        <span class="title">2026年8月空调选购实测榜单：华凌神机1699元起，格力云佳Pro 2300+元</span>
+      </div>
+      <div class="desc">覆盖1.5匹挂机1500-3000元四档和3匹柜机3500-6000元三档。提醒不买单排冷凝器低价机，8月可叠加以旧换新补贴。</div>
+      <div class="link"><a href="https://t.cj.sina.com.cn/articles/view/7879996075/1d5af32ab06801rr1c" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">📱 新浪科技</span>
+        <span class="title">远程开关空调怎么选？2026年主流品牌已全面普及，2000元起标配</span>
+      </div>
+      <div class="desc">小米/美的/格力/海尔/TCL/海信/奥克斯全支持APP远程操控，云端指令下发成功率99.5%。老旧空调用80-150元空调伴侣即可改造。</div>
+      <div class="link"><a href="https://k.sina.cn/article_7879777103_1d5abdb4f06801kn1e.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🛒 ZOL中关村在线</span>
+        <span class="title">最新空调热卖排行榜：格力/海尔/美的/海信五大品牌覆盖千元至万元</span>
+      </div>
+      <div class="desc">海信E370-X1 2399元大风量除菌，海尔KFR-35GW/E1-1 1849元AI节能+双极离子除菌，格力RF28WPd 27000元旗舰。</div>
+      <div class="link"><a href="https://jd.zol.com.cn/1230/12305618.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🦠 新浪科技</span>
+        <span class="title">3000元档除菌空调怎么选？长虹全无尘360°无尘舱 vs 美的双核离子除菌</span>
+      </div>
+      <div class="desc">长虹全无尘·灵感风2999元：57℃高温智清洁+银离子除菌99.9%。美的静优风：双核离子主动净化+18dB静音。过敏体质选长虹，鼻炎选美的。</div>
+      <div class="link"><a href="https://k.sina.com.cn/article_7879776430_1d5abd8ae068019vvq.html" target="_blank">查看原文 →</a></div>
+    </div>
+  </div>
+
+  <!-- ================= 暖通 ================= -->
+  <div class="section" id="sec-nt">
+    <div class="section-title">🔥 暖通 <span class="count">4 条</span></div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform dy">🎵 抖音热搜</span>
+        <span class="title">山东多地实现集中供冷，网友热议集中供冷vs空调<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">山东多地推广集中供冷系统，通过区域供冷站统一输送冷水至各建筑末端。网友热议集中供冷的节能效果与空调的灵活度对比，话题在抖音平台引发广泛讨论。</div>
+      <div class="link"><a href="https://liaoning.news.163.com/keywords/7/7/7a7a8c03/1.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🇺🇸 网易/硬核实验室</span>
+        <span class="title">加州热浪催生热泵团购：前火箭工程师瞄准54%空调普及率缺口</span>
+      </div>
+      <div class="desc">Vayu热泵公司与VoltHub合作推出加州首个热泵团购项目，覆盖洛杉矶和旧金山湾区。空气源热泵零碳供暖+制冷，团购模式降低购买门槛。</div>
+      <div class="link"><a href="https://www.163.com/dy/article/L40TT45U05561FYE.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">⚠️ 封面新闻</span>
+        <span class="title">地暖首次启用即漏水淹主卧，业主发现材料货不对板，涉事公司回应</span>
+      </div>
+      <div class="desc">四川资阳业主新房地暖管道漏水导致主卧被水浸泡、实木家具受损。施工方未通知隐蔽工程验收即回填，多次漏压预警被忽视。暖通工程合规受关注。</div>
+      <div class="link"><a href="https://www.163.com/dy/article/L40QV5940514D3UH.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform">🏛️ 青岛电博会</span>
+        <span class="title">2026电博会9月4日-6日青岛举办：海尔/格力/松下展示全屋智能与智慧家居</span>
+      </div>
+      <div class="desc">第23届中国国际消费电子博览会以"AI领航智启未来"为主题，设六大展馆，涵盖智能家居生态、具身智能、智慧出行、智慧康养等领域。</div>
+      <div class="link"><a href="https://so.html5.qq.com/page/real/search_news?docid=70000021_9136a79feb063452" target="_blank">查看原文 →</a></div>
+    </div>
+  </div>
+
+  <!-- ================= 小红书专栏 ================= -->
+  <div class="section" id="sec-xhs">
+    <div class="section-title">📕 小红书热门话题 <span class="count">2 条</span></div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform xhs">📕 小红书</span>
+        <span class="title">《2026居住趋势报告》发布："适我主义"成家居消费核心关键词<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">小红书平台发布趋势报告，家居消费从"外向型审美"转向"内向型关照"。轻量化高端定制家居、情绪治愈型软装、个性化场景化搭配成为市场新风口。家装市场今年将达3.65万亿。</div>
+      <div class="link"><a href="http://gzylhyzx.com/detail.html?cpid=T17&newsId=43033339" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform xhs">📕 小红书</span>
+        <span class="title">情绪治愈型软装成爆款赛道：家居情绪消费占比28%，年增速超30%<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">艾媒咨询数据显示情绪经济市场规模持续攀升，预计2029年突破4.5万亿，其中家居赛道占比28%。"对内取悦"取代"对外展示"，绿色健康刚需化、改造需求轻量化成鲜明特征。</div>
+      <div class="link"><a href="http://gzylhyzx.com/detail.html?cpid=T17&newsId=43033339" target="_blank">查看原文 →</a></div>
+    </div>
+  </div>
+
+  <!-- ================= 抖音专栏 ================= -->
+  <div class="section" id="sec-dy">
+    <div class="section-title">🎵 抖音热搜 <span class="count">4 条</span></div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform dy">🎵 抖音热搜</span>
+        <span class="title">格力玫瑰空调1.3亿阅读量话题：被全网骂丑却狂卖5万台<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">格力玫瑰空调在抖音等平台斩获1.3亿阅读量，格力CMO证实累计销量突破5万台，创造超15亿销售额。已迭代至第三代，锁定新婚家装/中式婚房赛道。</div>
+      <div class="link"><a href="https://www.mtrt.cn/news/1428" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform dy">🎵 抖音热门</span>
+        <span class="title">美的T3二代AI空调：珍珠玻璃面板+胡桃木新风窗，空调变家居艺术品<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">天然珍珠玻璃面板+92%透光超白玻璃，关机全隐如装饰画。胡桃木新风窗设计，50m³/h新风+H13净化+DeepSeek大模型。京东空调品牌榜美的TOP1。</div>
+      <div class="link"><a href="https://dy.163.com/article/L3SOEIJP0512C3L0.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform dy">🎵 抖音热搜</span>
+        <span class="title">山东多地实现集中供冷，网友热议集中供冷vs家用空调<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">山东多地推广区域集中供冷系统，通过供冷站统一输送冷水至建筑末端。抖音网友热议节能效果与灵活度对比，集中供冷适合新区开发，老旧小区仍以空调为主。</div>
+      <div class="link"><a href="https://liaoning.news.163.com/keywords/7/7/7a7a8c03/1.html" target="_blank">查看原文 →</a></div>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <span class="platform dy">🎵 抖音热搜</span>
+        <span class="title">开一天一夜空调女子"中毒"送医，夏季空调安全话题刷屏<span class="new-badge">NEW</span></span>
+      </div>
+      <div class="desc">抖音热榜话题引发关注，多地报道长时间密闭开空调导致不适案例。医生提醒：每2-3小时开窗通风15分钟，燃气热水器+空调密闭环境尤需警惕一氧化碳中毒。</div>
+      <div class="link"><a href="https://liaoning.news.163.com/keywords/7/7/7a7a8c03/1.html" target="_blank">查看原文 →</a></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>🤖 由 WorkBuddy 自动化采集生成 · 每日 05:00 GMT+8</p>
+    <p>报道时间：2026-08-11 · 数据来源：知乎 / 百度 / 微博 / 抖音 / 今日头条 / 小红书 / 快手等</p>
+    <p style="margin-top:0.5rem;font-size:0.72rem;opacity:0.6">分享链接：https://earthmotherliuchong-sketch.github.io/hotspot-daily/2026-08-11.html</p>
+  </div>
+
+</div>
+
+</body>
+</html>
